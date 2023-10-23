@@ -1,9 +1,10 @@
 [project]
-name = "doxgxxn"
-version = "0.1.0"
-description = "first distribution"
+name = "doxg"
+version = "0.2.0"
+description = "useful contents of mine"
 authors = [
     {name = "doxgxxn", email = "praze74@gmail.com"},
+    {name = "doxg", email = "praze74@gmail.com"},
 ]
 dependencies = []
 requires-python = ">=3.8"
@@ -13,3 +14,19 @@ license = {text = "MIT"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
+
+[project.scripts]
+doxg-imp = 'doxg.app:imp'
+doxg-pic = 'doxg.app:pic'
+doxg-who = 'doxg.app:who'
+
+
+[project.urls]
+"Homepage" = "https://github.com/doxgxxn/doxg"
+"Bug Tracker" = "https://github.com/doxgxxn/doxg/issues"
