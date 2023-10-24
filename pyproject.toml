@@ -1,11 +1,11 @@
 [project]
 name = "doxg"
-version = "0.3.0"
+version = "0.4.2"
 description = "useful contents of mine"
-authors = [   
-    {name = "doxg", email = "praze74@gmail.com"}
-]
 
+authors = [
+    {name = "doxg", email = "praze74@gmail.com"},
+]
 dependencies = []
 
 
@@ -23,12 +23,11 @@ test = [
     "pytest-cov>=4.1.0",
 ]
 
-
-
 [project.scripts]
-doxg-imp = 'doxg.app:imp'
-doxg-pic = 'doxg.app:pic'
-doxg-who = 'doxg.app:who'
+doxg-imp = 'doxg:imp'
+doxg-pic = 'doxg:pic'
+doxg-who = 'doxg:who'
+doxg-game = 'doxg.game:coin_game'
 
 
 [project.urls]
