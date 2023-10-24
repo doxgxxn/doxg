@@ -1,7 +1,9 @@
 [project]
 name = "doxg"
-version = "0.4.2"
+version = "0.4.3"
 description = "useful contents of mine"
+long_description = "package_description.txt"
+
 authors = [
     {name = "doxg", email = "praze74@gmail.com"},
 ]
@@ -25,7 +27,7 @@ test = [
 doxg-imp = 'doxg:imp'
 doxg-pic = 'doxg:pic'
 doxg-who = 'doxg:who'
-doxg-game = 'doxg.game:coin_game'
+post-install = "my_install_script.py"
 
 
 [project.urls]
