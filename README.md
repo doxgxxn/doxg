@@ -63,7 +63,7 @@ Contributing
     
     $ git push --set-upstream origin 0.2.0/doxg
 
-functions
+function examples
 --- 
 
 doxg-imp
@@ -158,6 +158,14 @@ doxg-pic
                                .!JJ?!~^:. ?#??????????7??????????J^
 
                                   .:~!77??5^                  ..
+
+
+from doxg.game import coin_game
+
+    coin_game( player_number : int):
+
+![image](https://github.com/doxgxxn/doxg/assets/135602281/c709e41a-6fb1-4d55-8603-1f83a33e403c)
+
 
 
 
