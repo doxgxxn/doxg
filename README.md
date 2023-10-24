@@ -63,8 +63,9 @@ Contributing
     
     $ git push --set-upstream origin 0.2.0/doxg
 
+
 function examples
---- 
+---
 
 doxg-imp
 
@@ -160,15 +161,38 @@ doxg-pic
                                   .:~!77??5^                  ..
 
 
+doxg-who
+
+    I am simon
+
+test
+
+    ==================================== 3 passed in 0.02s ====================================
+    (doxg-3.8)  doxg@LAPTOP-M2348M93  ~/code/doxg   0.3.0/docker ±  pytest --cov
+    =================================== test session starts ===================================
+    platform linux -- Python 3.8.18, pytest-7.4.2, pluggy-1.3.0
+    rootdir: /home/doxg/code/doxg
+    plugins: cov-4.1.0
+    collected 3 items
+
+    tests/test_app.py ...                                                               [100%]
+
+    ---------- coverage: platform linux, python 3.8.18-final-0 -----------
+    Name                   Stmts   Miss  Cover
+    ------------------------------------------
+    src/doxg/__init__.py       0      0   100%
+    src/doxg/app.py            8      0   100%
+    tests/__init__.py          0      0   100%
+    tests/test_app.py         10      0   100%
+    ------------------------------------------
+    TOTAL                     18      0   100%
+
+
+    ==================================== 3 passed in 0.04s ====================================
+=======
 from doxg.game import coin_game
 
     coin_game( player_number : int):
 
 ![image](https://github.com/doxgxxn/doxg/assets/135602281/c709e41a-6fb1-4d55-8603-1f83a33e403c)
 
-
-
-
-doxg-who
-
-    I am simon

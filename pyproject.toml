@@ -1,11 +1,13 @@
 [project]
 name = "doxg"
-version = "0.2.0"
+version = "0.3.0"
 description = "useful contents of mine"
 authors = [   
     {name = "doxg", email = "praze74@gmail.com"}
 ]
+
 dependencies = []
+
 
 requires-python = ">=3.8"
 readme = "README.md"
