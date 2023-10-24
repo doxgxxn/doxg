@@ -192,7 +192,7 @@ test
 =======
 from doxg.game import coin_game
 
-    coin_game( player_number : int):
+    coin_game( number of players : int):
 
 ![image](https://github.com/doxgxxn/doxg/assets/135602281/c709e41a-6fb1-4d55-8603-1f83a33e403c)
 
